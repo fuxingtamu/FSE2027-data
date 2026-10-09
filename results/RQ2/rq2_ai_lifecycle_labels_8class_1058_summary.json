@@ -1,0 +1,62 @@
+{
+  "status": "complete_model_reannotation_not_human_adjudicated",
+  "codebook": "RQ2 current eight-mechanism origin codebook; Control lifecycle rules",
+  "model": "gpt-5.6-luna",
+  "n_ctd_rows": 1058,
+  "legacy_rq2_rows": 1044,
+  "newly_covered_rows": 14,
+  "unique_ctd_keys": 1058,
+  "new_origin_mechanism_counts": {
+    "IMPLEMENTATION_SHORTCUT": 265,
+    "CONTEXT_EVOLUTION": 125,
+    "STRUCTURAL_CONSTRAINT": 78,
+    "CONTRACT_ASSUMPTION_MISMATCH": 266,
+    "VERIFICATION_FEEDBACK_GAP": 142,
+    "SCOPE_REQUIREMENT_OMISSION": 100,
+    "UNKNOWN": 53,
+    "EMERGENT_CONTEXT_CHANGE": 29
+  },
+  "new_temporal_status_counts": {
+    "YES": 866,
+    "NO": 164,
+    "UNCERTAIN": 28
+  },
+  "new_exposure_pathway_counts": {
+    "P-C": 533,
+    "P-U": 168,
+    "P-B": 217,
+    "P-A": 140
+  },
+  "new_repair_response_counts": {
+    "RP4": 150,
+    "RP2": 478,
+    "RP3": 181,
+    "RP1": 131,
+    "RP5": 94,
+    "RP6": 24
+  },
+  "new_confidence_counts": {
+    "medium": 485,
+    "high": 544,
+    "low": 29
+  },
+  "legacy_origin_mechanism_counts": {
+    "CONVENTION_STRUCTURAL_MISMATCH": 382,
+    "INADEQUACY": 308,
+    "UNKNOWN": 47,
+    "OMISSION": 170,
+    "VERIFICATION_GAP": 71,
+    "CONTRACT_INTEGRATION_MISMATCH": 66
+  },
+  "legacy_origin_code_counts": {
+    "RC3": 353,
+    "RC1": 246,
+    "RC2": 262,
+    "RC4": 169,
+    "RCU": 14
+  },
+  "outputs": {
+    "labels_jsonl": "D:\\ai_td_experiments\\src\\output\\full_scale\\ai_ctd_lifecycle_8class_1058.jsonl",
+    "checkpoint_jsonl": "D:\\ai_td_experiments\\src\\output\\full_scale\\ai_ctd_lifecycle_8class_1058.checkpoint.jsonl"
+  }
+}

@@ -1,0 +1,500 @@
+{"blind_id":"PUR-001","coder_id":"CODER_A","purpose":"test","evidence_notes":"The change shortens end-to-end test runs by avoiding redirects; all changed files are E2E test infrastructure and tests."}
+{"blind_id":"PUR-002","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR changes one Help Center article by removing a sentence about a payout preference that is no longer available. The sole changed file is article content."}
+{"blind_id":"PUR-003","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR changes GROUP BY evaluation to group by computed values and explicitly enables MAP and LIST columns. The summary presents this as newly supported behavior; tests are accompanying coverage."}
+{"blind_id":"PUR-004","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR resolves Knip configuration errors, removes an unused dependency, and updates the lockfile. Configuration and dependency cleanup are the main deliverables."}
+{"blind_id":"PUR-005","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a customer-facing ability to reject a review video; presenter and request tests accompany the behavior."}
+{"blind_id":"PUR-006","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Removes the deploy-command gate so the CLI deploy command is always available; this changes supported user-facing behavior."}
+{"blind_id":"PUR-007","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects malformed preview Docker image tags when connector versions already contain a prerelease suffix. The workflow change repairs existing incorrect behavior."}
+{"blind_id":"PUR-008","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR adds a File Storage guide as a documentation file; no product behavior change is described."}
+{"blind_id":"PUR-009","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Replaces equivalent inline width and height styles with Tailwind classes across components; no behavior change is described."}
+{"blind_id":"PUR-010","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds GitHub Models hosting integration and an end-to-end sample; tests and project wiring support the integration."}
+{"blind_id":"PUR-011","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a YAML schema deparser and integrates it into LLM context preparation, providing new supported serialization behavior."}
+{"blind_id":"PUR-012","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects thumbnail edge rounding that caused visible one-pixel gaps in the timeline."}
+{"blind_id":"PUR-013","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Allows callers to provide a struct name to make-migration, adding command capability; documentation updates are secondary."}
+{"blind_id":"PUR-014","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Changes PO-file loading to avoid falling back to message IDs and adds tests for the corrected behavior."}
+{"blind_id":"PUR-015","coder_id":"CODER_A","purpose":"other","evidence_notes":"The PR reverts a prior admin-route refactor. The supplied description does not state a specific defect or new capability, so the stated purpose is a rollback."}
+{"blind_id":"PUR-016","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Improves chat failure handling and conversation integrity; server and client changes implement the correction."}
+{"blind_id":"PUR-017","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Removes waiting for chart animation because it prevents the finish handler from applying queued time-range changes."}
+{"blind_id":"PUR-018","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes locked coding agents to ask mode by default, altering the default supported interaction behavior."}
+{"blind_id":"PUR-019","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Repositions the Chat with AI button to prevent overlap with the app bar; the PR explicitly describes a layout defect."}
+{"blind_id":"PUR-020","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates bs58 and removes the btcfun plugin and related package wiring to resolve integration-test dependency issues."}
+{"blind_id":"PUR-021","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds rescheduler identity to booking data and email templates, extending notification behavior."}
+{"blind_id":"PUR-022","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Moves repository fetching from client-side Supabase calls to a Server Action pattern, with validation and error handling; the PR frames the work as an architectural conversion."}
+{"blind_id":"PUR-023","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adjusts the Instagram end-time query so UTC+ ad accounts include the current day's data; unit tests support the correction."}
+{"blind_id":"PUR-024","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects transform-matrix scaling so overlay dimensions remain aligned with the rendered window at different zoom levels."}
+{"blind_id":"PUR-025","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects serialization of error objects in PostHog tracking and adds a changeset."}
+{"blind_id":"PUR-026","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Moves extension logging to VS Code LogOutputChannel, adding timestamps and log-level display; the usability improvement is the main stated deliverable."}
+{"blind_id":"PUR-027","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds KDoc to core destination interfaces."}
+{"blind_id":"PUR-028","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Autosaves task descriptions when leaving the task view or closing the tab."}
+{"blind_id":"PUR-029","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Clarifies the meaning of IPolicy.defaultValue."}
+{"blind_id":"PUR-030","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adds validation for an invalid ESM bytecode invocation that causes an avoidable double parse, and documents the requirement."}
+{"blind_id":"PUR-031","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Restructures the PM Analysis Agent as a LangGraph subgraph; the PR identifies refactoring as the purpose."}
+{"blind_id":"PUR-032","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a /my-prs skill that retrieves relevant PRs for the day."}
+{"blind_id":"PUR-033","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Executes middleware on early request errors so middleware such as CORS can apply headers."}
+{"blind_id":"PUR-034","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Migrates a connector scaffold to the new Gradle build flow."}
+{"blind_id":"PUR-035","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents exceptions for unknown manifest expression types by deferring value handling to the caller."}
+{"blind_id":"PUR-036","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds custom selection highlighting to the SQL editor."}
+{"blind_id":"PUR-037","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Removes repository-specific Codecov settings so the organization-level configuration is used."}
+{"blind_id":"PUR-038","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Moves a color heading and descriptive text into the MDX frontmatter on the color documentation page."}
+{"blind_id":"PUR-039","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates JavaScript SDK dependencies to address security vulnerabilities."}
+{"blind_id":"PUR-040","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes thumbnail display when a review is submitted without a video."}
+{"blind_id":"PUR-041","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Copies payload schema and validation settings when syncing a workflow to another environment, fixing omitted workflow data."}
+{"blind_id":"PUR-042","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Changes RpcResourceState visibility from public to internal without describing a behavior change."}
+{"blind_id":"PUR-043","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Injects RELEASE_VERSION during release builds to correct the frontend version."}
+{"blind_id":"PUR-044","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Lifts the tipping selector out of conditional React branches so input retains focus and works reliably."}
+{"blind_id":"PUR-045","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Combines taxes and pricing content into the pricing page and updates the customer-facing page layout/navigation."}
+{"blind_id":"PUR-046","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Reverts the registry cleanup introduced to address a failed ESM require; removing the change and its regression test appears to restore the prior module error behavior."}
+{"blind_id":"PUR-047","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates the WebKit source revision used to build Bun."}
+{"blind_id":"PUR-048","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Replaces an exposed no-op process.setSourceMapsEnabled stub with behavior and argument validation expected by Node."}
+{"blind_id":"PUR-049","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Updates the contributor PR checklist to request documentation for UI changes."}
+{"blind_id":"PUR-050","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Validates and normalizes CORS origins before using AllowOriginsFunc, rejecting invalid values."}
+{"blind_id":"PUR-051","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds an admin refund queue and navigation entry."}
+{"blind_id":"PUR-052","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes the availability locked/unlocked value not persisting for team-managed event types."}
+{"blind_id":"PUR-053","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents nil pointer panics when context methods are accessed after request context release."}
+{"blind_id":"PUR-054","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes cross-project subtasks disappearing from their own project List view."}
+{"blind_id":"PUR-055","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Changes the Payouts navigation icon for clearer visual representation; no behavior change is described."}
+{"blind_id":"PUR-056","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds user-adjustable width for the chat and output panels on SessionDetailPage."}
+{"blind_id":"PUR-057","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds Enter-key submission support to session forms."}
+{"blind_id":"PUR-058","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Replaces generic unreachable errors with distinct conflict errors for Mongo fetch and append failures."}
+{"blind_id":"PUR-059","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes the screen-reader announcement when a completed chat tool has no title."}
+{"blind_id":"PUR-060","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Improves tasker performance through database indexes, smaller payloads, and simpler cancellation logic."}
+{"blind_id":"PUR-061","coder_id":"CODER_A","purpose":"test","evidence_notes":"Changes only router_test.go benchmark code to remove races and nondeterministic benchmark failures; no production code is changed."}
+{"blind_id":"PUR-062","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Revises CLAUDE.md documentation of the monorepo structure."}
+{"blind_id":"PUR-063","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Updates compiler import matching to recognize package import names, resolving issue #880."}
+{"blind_id":"PUR-064","coder_id":"CODER_A","purpose":"test","evidence_notes":"Adds test coverage for the --aspire-version template option; only test code is changed."}
+{"blind_id":"PUR-065","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Changes Renovate configuration so dependency update jobs run monthly rather than hourly."}
+{"blind_id":"PUR-066","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Unifies generated-type and schema diff checks in CI and removes duplicated scripts."}
+{"blind_id":"PUR-067","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a Zig Markdown parser and Bun.markdown API with multiple output modes."}
+{"blind_id":"PUR-068","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes migration review prompts and evaluation guidance, altering the review agent behavior."}
+{"blind_id":"PUR-069","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Upgrades the Rive canvas dependency so files created by current Rive can be opened."}
+{"blind_id":"PUR-070","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adds bounds checks so terminal font size cannot become unusably small or negative."}
+{"blind_id":"PUR-071","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Upgrades the Docusaurus build framework and updates related documentation."}
+{"blind_id":"PUR-072","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes routing logic for classic-ml documentation pages."}
+{"blind_id":"PUR-073","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Unifies createFileContent and updateFileContent implementations."}
+{"blind_id":"PUR-074","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Suppresses compiler warnings that incorrectly arise for generated AppHost metadata types in the single-file setup."}
+{"blind_id":"PUR-075","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes TypeScript TS2835 by adding explicit import extensions and compatible NodeNext module resolution."}
+{"blind_id":"PUR-076","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds schemaIssues data to the workflow annotation path for QA agent feedback."}
+{"blind_id":"PUR-077","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects search API credit calculation when scraping is disabled."}
+{"blind_id":"PUR-078","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects the log_feedback error parameter type to match the Feedback constructor."}
+{"blind_id":"PUR-079","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds detailed BigQuery incremental sync documentation."}
+{"blind_id":"PUR-080","coder_id":"CODER_A","purpose":"mixed-purpose","evidence_notes":"The branch sync touches API behavior, tracing, tests, workflows, templates, and release notes; several purposes appear substantial."}
+{"blind_id":"PUR-081","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Changes Composer scripts so PHP code-style CI checks explicitly scan src/ and tests/."}
+{"blind_id":"PUR-082","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates the WebKit source revision used by the project build."}
+{"blind_id":"PUR-083","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Upgrades the rack-mini-profiler dependency."}
+{"blind_id":"PUR-084","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes Player UI scale calculation that could produce NaN for marginLeft on mount."}
+{"blind_id":"PUR-085","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Removes an outdated 30-seat minimum statement from organization setup pricing."}
+{"blind_id":"PUR-086","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Reverts a prior feature-flag lookup change that caused substantial local performance problems."}
+{"blind_id":"PUR-087","coder_id":"CODER_A","purpose":"mixed-purpose","evidence_notes":"Coder A chose the prior GPT-5.6-Luna label after comparing it with the assistant judgment."}
+{"blind_id":"PUR-088","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Adds pnpm overrides and lockfile updates for vulnerable transitive dependencies."}
+{"blind_id":"PUR-089","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Renames PHP SDK members to match code style conventions so the style workflow passes."}
+{"blind_id":"PUR-090","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Replaces repeated containment logic with slices.Contains without changing intended behavior."}
+{"blind_id":"PUR-091","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes a Windows worker crash caused by shared dotenv loader state."}
+{"blind_id":"PUR-092","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Adds a database index to improve backlog query performance."}
+{"blind_id":"PUR-093","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Removes a trailing comma in tsconfig.json to correct a configuration parsing/check failure."}
+{"blind_id":"PUR-094","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Migrates the Monday connector OAuth manifest from a scope string to the required scopes object array."}
+{"blind_id":"PUR-095","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds ahead-of-time bundling support for HTML imports in bun build."}
+{"blind_id":"PUR-096","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Ensures Azure Key Vault secret resources are excluded from the published manifest; parameter renames are secondary."}
+{"blind_id":"PUR-097","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Changes existing feature opt-in toggle wording from Allow/Disallow to Enable/Disable for clarity; behavior is unchanged."}
+{"blind_id":"PUR-098","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Moves incomplete booking information out of the routing-form header into its dropdown."}
+{"blind_id":"PUR-099","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Adds the required pydantic>=2.0 constraint to package metadata so installation resolves the runtime requirement."}
+{"blind_id":"PUR-100","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Implements pages functionality in the editor."}
+{"blind_id":"PUR-101","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Documents the rectangle radius option on the website."}
+{"blind_id":"PUR-102","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Renames WatchSchemaForm to SetSchemaForm to reflect its existing responsibility."}
+{"blind_id":"PUR-103","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds PostHog tracking events to the CLI run command."}
+{"blind_id":"PUR-104","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Changes a duplicated boundary variable to a constant for simpler code."}
+{"blind_id":"PUR-105","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates Jest dependencies and lockfile entries for the API package."}
+{"blind_id":"PUR-106","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes post-login navigation to send users directly to design session creation."}
+{"blind_id":"PUR-107","coder_id":"CODER_A","purpose":"test","evidence_notes":"Adds Storybook visual-test stories for BranchDetailPage and the styles setup needed to render them."}
+{"blind_id":"PUR-108","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Moves cache migration guidance into the migration guide and updates release documentation."}
+{"blind_id":"PUR-109","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Exposes HTTPParser through process.binding and populates _http_common for Node compatibility."}
+{"blind_id":"PUR-110","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects getPeerCertificate behavior and guards TLS identity checks when no certificate is available."}
+{"blind_id":"PUR-111","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Reuses existing JSON parse/stringify helpers to remove duplicated component logic."}
+{"blind_id":"PUR-112","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects decorator lowering when emitDecoratorMetadata is enabled without experimentalDecorators."}
+{"blind_id":"PUR-113","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Rejects typed-nil HTTP handler functions instead of treating them as valid handlers."}
+{"blind_id":"PUR-114","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Changes VS Code launch configuration test timeout for debugging sessions."}
+{"blind_id":"PUR-115","coder_id":"CODER_A","purpose":"test","evidence_notes":"Adds AST builder tests for current time/date/timestamp and UUID functions."}
+{"blind_id":"PUR-116","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Migrates project components from Prisma to existing Supabase JS access patterns to standardize data access."}
+{"blind_id":"PUR-117","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes an obsolete save_us_from_ddos method and its references."}
+{"blind_id":"PUR-118","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Checks current database risk state so suspended users are not incorrectly treated as compliant."}
+{"blind_id":"PUR-119","coder_id":"CODER_A","purpose":"test","evidence_notes":"Changes only a request spec to remove an assertion for a nonexistent table column."}
+{"blind_id":"PUR-120","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Updates issue template choices to match the current CLI and Web product versions."}
+{"blind_id":"PUR-121","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a diff view between original documents and knowledge suggestions."}
+{"blind_id":"PUR-122","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents the Discover path from being rewritten to the root URL."}
+{"blind_id":"PUR-123","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes non-looping Lottie animations disappearing before the Remotion sequence ends."}
+{"blind_id":"PUR-124","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects type hints so the lambda Python package passes mypy checks."}
+{"blind_id":"PUR-125","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds base64 handling for binary data in the hosting helper."}
+{"blind_id":"PUR-126","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Pauses or redirects live status logging so it no longer overwrites the human input prompt."}
+{"blind_id":"PUR-127","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Makes scanImports and scan honor trimUnusedImports and fixes the result array sizing when imports are skipped."}
+{"blind_id":"PUR-128","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Corrects module paths in documentation examples for before/after kickoff hooks."}
+{"blind_id":"PUR-129","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds an optional segments prop so callers can provide pre-fetched data to DataTableProvider."}
+{"blind_id":"PUR-130","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes a Next.js hydration mismatch in the shadow root detector."}
+{"blind_id":"PUR-131","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Aligns rotated text and its background rectangle by rotating both around the same pivot point."}
+{"blind_id":"PUR-132","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Makes bun audit use configured proxy environment variables for outbound requests."}
+{"blind_id":"PUR-133","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds glob pattern matching support to the CLI --file argument."}
+{"blind_id":"PUR-134","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds a Trendshift badge to the README."}
+{"blind_id":"PUR-135","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Preallocates slice capacity as a small performance optimization."}
+{"blind_id":"PUR-136","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds a customer success story to the website and updates its publication date."}
+{"blind_id":"PUR-137","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds Next.js endpoint guidance to the documentation."}
+{"blind_id":"PUR-138","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates dependency constraints to remove an rc3 prerelease requirement after the stable 1.0.0 release."}
+{"blind_id":"PUR-139","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Changes notification filtering to require exact context matches, addressing issue NV-6796."}
+{"blind_id":"PUR-140","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds create-file and create-folder actions to the dev/code tab and file menu."}
+{"blind_id":"PUR-141","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Adds workflow_dispatch inputs to a GitHub Actions registry-generation workflow."}
+{"blind_id":"PUR-142","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Makes the shipping-information toggle available for all product types."}
+{"blind_id":"PUR-143","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Allows QA agent workflows to retry after pgTAP validation failures instead of terminating immediately."}
+{"blind_id":"PUR-144","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates the pinned WebKit revision used by the project."}
+{"blind_id":"PUR-145","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes re-uploading an image after it was removed during project creation."}
+{"blind_id":"PUR-146","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds HTML5 audio preview support in the media package and example."}
+{"blind_id":"PUR-147","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Removes unused jobs package files and exports while cleaning up the knip ignore list."}
+{"blind_id":"PUR-148","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Improves dashboard loading feedback when workflow filters change."}
+{"blind_id":"PUR-149","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds attendee data, including seated-event handling, to CSV exports."}
+{"blind_id":"PUR-150","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Corrects capitalization and hyperlinks in a help article."}
+{"blind_id":"PUR-151","coder_id":"CODER_A","purpose":"other","evidence_notes":"Changes the commercial pricing formula for the search endpoint; pricing policy is outside the other purpose categories."}
+{"blind_id":"PUR-152","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Renames a GitHub Actions coverage workflow and adjusts its timestamp format."}
+{"blind_id":"PUR-153","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes the review prompt so agents also create a positive issue when review results are positive."}
+{"blind_id":"PUR-154","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Redesigns the repository import screen and adds visible repository metadata and loading states."}
+{"blind_id":"PUR-155","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Updates CLI help text to identify the exec command as a preview feature."}
+{"blind_id":"PUR-156","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Displays playback rates at their configured precision instead of rounding them incorrectly."}
+{"blind_id":"PUR-157","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes multiple-variable text behavior in the schema helper, property panel, and renderer."}
+{"blind_id":"PUR-158","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes a Page Not Found error for the runtime/markdown documentation page callout."}
+{"blind_id":"PUR-159","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Bumps the connector CDK and Java base image to include transitive dependency CVE patches."}
+{"blind_id":"PUR-160","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Bumps the package patch version and matching template version references."}
+{"blind_id":"PUR-161","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes dropdown positioning by using absolute positioning in the computed placement strategy."}
+{"blind_id":"PUR-162","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Avoids illegal GC allocations inside ObjectInitializationScope."}
+{"blind_id":"PUR-163","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds a Quick Start section to the README."}
+{"blind_id":"PUR-164","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Allows users to display a table in the ERD by selecting it from the command palette."}
+{"blind_id":"PUR-165","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents eligible long-tenure sellers from having payouts incorrectly paused by the recent-failure rule."}
+{"blind_id":"PUR-166","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Extends Renovate automerge configuration to include @langchain scoped dependency updates."}
+{"blind_id":"PUR-167","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a routing trace viewer for bookings routed through forms."}
+{"blind_id":"PUR-168","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Removes redundant code and unused files while updating the knip configuration."}
+{"blind_id":"PUR-169","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds schema-based change tracking modes with old/new value comparison."}
+{"blind_id":"PUR-170","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds enterprise documentation and examples for HallucinationGuardrail."}
+{"blind_id":"PUR-171","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes terminal branch suggestions to prioritize main and master."}
+{"blind_id":"PUR-172","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents an infinite loop when the minimap section-header regex is empty."}
+{"blind_id":"PUR-173","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes sequence props watcher behavior and stale updates during scrubbing."}
+{"blind_id":"PUR-174","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes an accidentally committed database file and ignores it in future."}
+{"blind_id":"PUR-175","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Adds a GitHub Actions workflow to generate CMake source lists automatically."}
+{"blind_id":"PUR-176","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes the preview qualifier from the MCP setting label."}
+{"blind_id":"PUR-177","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes use-after-free and memory leak ownership of tsconfig during async transforms."}
+{"blind_id":"PUR-178","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Removes duplicate dashboard startup messages."}
+{"blind_id":"PUR-179","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes the invalid-period label for custom date ranges on Team Stats."}
+{"blind_id":"PUR-180","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates package versions and dependency pins to 1.13.0a4."}
+{"blind_id":"PUR-181","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes chat welcome tiles wrapping incorrectly by changing their CSS."}
+{"blind_id":"PUR-182","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Renames a Zig enum tag for idiomatic naming without changing observable behavior."}
+{"blind_id":"PUR-183","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Reverts .env.test dummy API keys that were breaking local tests and CI."}
+{"blind_id":"PUR-184","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Resolves lint and type-safety issues in the converter package with small code cleanup."}
+{"blind_id":"PUR-185","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds authentication method guidance for the Connector Builder documentation."}
+{"blind_id":"PUR-186","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds an iris() transition presentation with a circular reveal mask."}
+{"blind_id":"PUR-187","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates Kafka connector dependencies and metadata to address vulnerabilities."}
+{"blind_id":"PUR-188","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds command-invocation telemetry to the VS Code extension, respecting user telemetry settings."}
+{"blind_id":"PUR-189","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Disables an unnecessary Discover card description calculation to reduce page load time."}
+{"blind_id":"PUR-190","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes date handling when saving availability while also improving calendar cache date ranges."}
+{"blind_id":"PUR-191","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Enforces standard JSON Patch behavior by throwing when operations target nonexistent paths."}
+{"blind_id":"PUR-192","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Validates encryption configuration early and removes cookies when decryption fails."}
+{"blind_id":"PUR-193","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Changes overall_reviews to reference migration_id rather than GitHub-specific pull_request_id/project_id."}
+{"blind_id":"PUR-194","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adds the missing timezone property to subscriber API schemas for consistency."}
+{"blind_id":"PUR-195","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Makes sequence commands available for manual text entry through the terminal command palette."}
+{"blind_id":"PUR-196","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Moves Slack OAuth scopes to declarative connector configuration, enabling granular scopes."}
+{"blind_id":"PUR-197","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Handles the marker disposable correctly when retrieving tool output."}
+{"blind_id":"PUR-198","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents deletion of the last organization member to maintain data integrity."}
+{"blind_id":"PUR-199","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Migrates existing audio styles from SCSS to Tailwind without a stated behavior change."}
+{"blind_id":"PUR-200","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Removes a conflicting type declaration that caused lint failure."}
+{"blind_id":"PUR-201","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents a health-check exception when IHttpClientFactory is not registered."}
+{"blind_id":"PUR-202","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Updates comments and corrects spelling across source and generated API documentation."}
+{"blind_id":"PUR-203","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Restores concurrent execution of unread and severity count queries."}
+{"blind_id":"PUR-204","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Raises the documented maximum links count for the map endpoint from 5,000 to 30,000."}
+{"blind_id":"PUR-205","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Ensures disposed terminals are always removed from their associations."}
+{"blind_id":"PUR-206","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Extends upload size handling to form data to resolve the reported attachment upload issue."}
+{"blind_id":"PUR-207","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Corrects the changelog release date and PR link for the connector version."}
+{"blind_id":"PUR-208","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Removes duplicated DDL state and generates DDL dynamically from schema data."}
+{"blind_id":"PUR-209","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds incremental search results for organization members while the user types."}
+{"blind_id":"PUR-210","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Enables YARP configuration generation to work with environment-variable configuration."}
+{"blind_id":"PUR-211","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Makes the full styled Card button area clickable, not just its text."}
+{"blind_id":"PUR-212","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates the Fiber utils dependency and adapts parsing to its new helper API."}
+{"blind_id":"PUR-213","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects usage-count rollback for errors before stream setup completes."}
+{"blind_id":"PUR-214","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Formats the sales count with thousands separators instead of displaying an unformatted integer."}
+{"blind_id":"PUR-215","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds prerequisites, rate limits, and troubleshooting guidance to Harvest connector documentation."}
+{"blind_id":"PUR-216","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes handling of negative BodyLimit values and documents/test cases for valid boundary values."}
+{"blind_id":"PUR-217","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a Recent Sessions section to the design-session creation page."}
+{"blind_id":"PUR-218","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes the v2 API default for skipTlsVerification and adds the missing scrape endpoint."}
+{"blind_id":"PUR-219","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Allows Xing header parsing when MP3 data includes permitted encoder information after the standard fields."}
+{"blind_id":"PUR-220","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Publishes package version 0.1.12 and updates release metadata."}
+{"blind_id":"PUR-221","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds usage instructions for the crewai chat command and documents its chat_llm setting."}
+{"blind_id":"PUR-222","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Clarifies timeout middleware behavior and adds a runnable example and curl instructions."}
+{"blind_id":"PUR-223","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Coder A chose the prior GPT-5.6-Luna label after comparing it with the assistant judgment."}
+{"blind_id":"PUR-224","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Fills in the Advanced Features section of the LangGraph documentation."}
+{"blind_id":"PUR-225","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds dropdown-based token selection to pricing cards."}
+{"blind_id":"PUR-226","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adds standalone context helpers and documentation to prevent use of a recycled Fiber Ctx as a regular context in async work."}
+{"blind_id":"PUR-227","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Extracts existing TimelineItem markdown rendering into a reusable component."}
+{"blind_id":"PUR-228","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Bumps the connector CDK to improve normalization performance."}
+{"blind_id":"PUR-229","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds Tab completion behavior to the ERD command palette."}
+{"blind_id":"PUR-230","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Hides the library placeholder image when purchases exist but are all archived."}
+{"blind_id":"PUR-231","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes the platform value calculation window from 28 to 90 days."}
+{"blind_id":"PUR-232","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects Iceberg primary-key type conversion after the universal decimal mapping failed against destinations."}
+{"blind_id":"PUR-233","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Migrates trace manager internals to the V3 TraceInfo model."}
+{"blind_id":"PUR-234","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Clarifies Trusted Publisher requirements in the release workflow configuration."}
+{"blind_id":"PUR-235","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Upgrades Next.js dependencies and lockfile versions."}
+{"blind_id":"PUR-236","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects frame extraction for out-of-order frames and edit lists."}
+{"blind_id":"PUR-237","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Makes welcome-view padding adapt to resized/narrow layouts."}
+{"blind_id":"PUR-238","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes database tables, functions, and types unused by the frontend to reduce schema complexity."}
+{"blind_id":"PUR-239","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds --no-build and --no-restore flags to the Aspire run command."}
+{"blind_id":"PUR-240","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds documentation for GitStorage."}
+{"blind_id":"PUR-241","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes disposable leaks while creating native REPL UI components."}
+{"blind_id":"PUR-242","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Improves the creditsUsed field returned by crawl-status."}
+{"blind_id":"PUR-243","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Replaces raw selectors in E2E tests with reusable filter helper methods."}
+{"blind_id":"PUR-244","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes comments that restate WHAT code does, keeping rationale-focused comments."}
+{"blind_id":"PUR-245","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes a deprecated, unused parameterless API method."}
+{"blind_id":"PUR-246","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Removes leading dashes from multipart boundaries to match RFC 2046 formatting."}
+{"blind_id":"PUR-247","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Replaces a parameterless createAnnotations wrapper with the workflowAnnotation object."}
+{"blind_id":"PUR-248","coder_id":"CODER_A","purpose":"other","evidence_notes":"Removes Ask mode and consolidates the product around Build mode; this is a deliberate removal of an existing interaction mode."}
+{"blind_id":"PUR-249","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds support for custom domains in the Studio hosting workflow."}
+{"blind_id":"PUR-250","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes parsing of PostgreSQL dollar-quoted strings in PGliteInstanceManager."}
+{"blind_id":"PUR-251","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Adds coverage report compression and artifact upload to the coverage workflow."}
+{"blind_id":"PUR-252","coder_id":"CODER_A","purpose":"test","evidence_notes":"Only adds CSRF tests to reproduce and cover the unsafe-header issue."}
+{"blind_id":"PUR-253","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates the pinned vscode-distro package version."}
+{"blind_id":"PUR-254","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes login errors for unauthenticated users and users without an organization."}
+{"blind_id":"PUR-255","coder_id":"CODER_A","purpose":"test","evidence_notes":"Quarantines a flaky conformance test."}
+{"blind_id":"PUR-256","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Fixes reusable Nx cache behavior in GitHub Actions workflows."}
+{"blind_id":"PUR-257","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Re-enables the extension interaction service with native AOT support."}
+{"blind_id":"PUR-258","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates Zod dependency versions across packages."}
+{"blind_id":"PUR-259","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Enables a Clippy lint rule and updates assignments to comply with it."}
+{"blind_id":"PUR-260","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Formats model feedback messages correctly for Anthropic, whose API requires a user message before system instructions."}
+{"blind_id":"PUR-261","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates an autogenerated connector metadata version and accompanying documentation."}
+{"blind_id":"PUR-262","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Optimizes availability slot performance by filtering redundant date ranges."}
+{"blind_id":"PUR-263","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Returns HTTP 404 instead of 500 for invalid filesystem paths."}
+{"blind_id":"PUR-264","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Corrects database path handling on Windows."}
+{"blind_id":"PUR-265","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Registers the missing bulk SMS handler in the SMS factory."}
+{"blind_id":"PUR-266","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Changes job logging so document contents are omitted for single_urls and scrape modes."}
+{"blind_id":"PUR-267","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Moves to updated utils package APIs and expands the test workflow to Go 1.26."}
+{"blind_id":"PUR-268","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Introduces a proof-of-concept schema editor and its property controls."}
+{"blind_id":"PUR-269","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Applies a Clippy rule by changing needless pass-by-value parameters to references."}
+{"blind_id":"PUR-270","coder_id":"CODER_A","purpose":"test","evidence_notes":"Improves hooks.go test coverage and related CI coverage reporting."}
+{"blind_id":"PUR-271","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds human-readable task names to verbose output instead of showing only UUIDs."}
+{"blind_id":"PUR-272","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Allows design sessions to be created without a project association."}
+{"blind_id":"PUR-273","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Uses the default timeout for negative values and optimizes skipped-path setup."}
+{"blind_id":"PUR-274","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Ensures Docker builds inject the correct frontend release version."}
+{"blind_id":"PUR-275","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Removes unused and duplicated environment variables from Turbo globalEnv and the example env file."}
+{"blind_id":"PUR-276","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Optimizes Studio performance during window resizing."}
+{"blind_id":"PUR-277","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Optimizes Fresh header parsing by avoiding generic parsing for selected headers."}
+{"blind_id":"PUR-278","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Shows the Docling installation command when users try to use Docling before installing it."}
+{"blind_id":"PUR-279","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adds HMAC-signed nonce verification to protect OAuth callbacks against CSRF."}
+{"blind_id":"PUR-280","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Uses the database-generated ReviewIssue type instead of an incorrect local redefinition."}
+{"blind_id":"PUR-281","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds missing branding format types and tests to JavaScript and Python SDKs for functionality already supported by the API."}
+{"blind_id":"PUR-282","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Adds Markdown spacing in AGENTS.md to satisfy lint rules without adding substantive documentation content."}
+{"blind_id":"PUR-283","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Fixes TypeScript lint issues and narrows an any type in the manipulator package."}
+{"blind_id":"PUR-284","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Makes parameters and connection strings visible in the Aspire dashboard by default."}
+{"blind_id":"PUR-285","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes email clipping in Gmail output rendering."}
+{"blind_id":"PUR-286","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Allows scorer implementations to return None as a valid result."}
+{"blind_id":"PUR-287","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Removes an unused tester run helper."}
+{"blind_id":"PUR-288","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Updates changelog enforcement workflow logic for split CDK versions."}
+{"blind_id":"PUR-289","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Stops links in the editor from extending past a typed space."}
+{"blind_id":"PUR-290","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Adds dependency overrides and updates packages to resolve msgpackr and multer vulnerabilities."}
+{"blind_id":"PUR-291","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a responsive product mockup section to the features page."}
+{"blind_id":"PUR-292","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Destroys read streams after use to prevent file descriptor leaks."}
+{"blind_id":"PUR-293","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"Constrains Renovate so it does not update transformers beyond the compatible version."}
+{"blind_id":"PUR-294","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Replaces a broken link to Docker documentation."}
+{"blind_id":"PUR-295","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"Adds a help article note about X/Twitter caching old cover images."}
+{"blind_id":"PUR-296","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Adds bottom padding so the inbox footer gradient does not block preference controls."}
+{"blind_id":"PUR-297","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Coder A chose the prior GPT-5.6-Luna label after comparing it with the assistant judgment."}
+{"blind_id":"PUR-298","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Prevents the members page from crashing when the PBAC feature flag is enabled."}
+{"blind_id":"PUR-299","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Updates the MDX image regex to parse URLs containing parentheses."}
+{"blind_id":"PUR-300","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"Simplifies the Artifact schema structure and removes unnecessary re-exports, with clearer display text."}
+{"blind_id":"PUR-301","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Stores schema format explicitly instead of relying on file-extension detection, correcting unreliable format detection."}
+{"blind_id":"PUR-302","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Uses a fallback font when new UI schemas omit fontName."}
+{"blind_id":"PUR-303","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"Removes legacy CORS utilities and their obsolete specs."}
+{"blind_id":"PUR-304","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Shows the upload overlay only when dragging actual files, not text from the editor."}
+{"blind_id":"PUR-305","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Reverts the DMLGenerationAgent model choice to resolve increased timeouts after switching to GPT-5."}
+{"blind_id":"PUR-306","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Add copy to clipboard functionality for purchaser emails in admin search; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-307","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(http): enable TLS keepalive for custom SSL configs; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-308","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds new supported bucket types and introduces hints support across the SDK and localization loaders, expanding user-facing capabilities."}
+{"blind_id":"PUR-309","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: docs(source-typeform): improve setup guide, prerequisites, and performance documentation; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-310","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Add waitFor of 5000ms for changeTracking format; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-311","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Remove flaml[automl] from test-requirements.txt; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-312","coder_id":"CODER_A","purpose":"test","evidence_notes":"The PR exclusively adds controller specs verifying the existing GET /small-bets response, title, and layout settings."}
+{"blind_id":"PUR-313","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR updates NuGet package versions and pins a transitive dependency to address security alerts; no product behavior or tests are the primary deliverable."}
+{"blind_id":"PUR-314","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(source-linkedin-ads): map HTTP 429 to RATE_LIMITED instead of RETRY; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-315","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR removes the blog feature-gating logic and makes the Blog link and blog routes available to all users, adding supported behavior rather than merely reorganizing code."}
+{"blind_id":"PUR-316","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: 🔥 feat: Support Express-style next callback handlers; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-317","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat(dashboard): Add copy curl button to workflow drawer; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-318","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR primarily adds and changes supported editor UI behavior, including hover-activated side-panel interactions, page/image search and empty states, filter controls, and revised panel navigation. The styling changes support these capabilities rather than constituting a separate maintenance-only change."}
+{"blind_id":"PUR-319","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"The PR removes unused and legacy utility files as repository cleanup, with no intended product behavior change, feature addition, or defect correction."}
+{"blind_id":"PUR-320","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects failed or rate-limited single-sheet requests by adding exponential backoff and handling 429 responses, explicitly resolving an existing issue."}
+{"blind_id":"PUR-321","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects existing memory-corruption and external-mutation defects caused by pooled buffers by adding defensive copies at storage boundaries; related middleware copies are removed because the centralized fix makes them redundant."}
+{"blind_id":"PUR-322","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"PR title: Remove Docs list and detail pages; categorized by the change's primary purpose as maintenance."}
+{"blind_id":"PUR-323","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: 📒docs: Fix EarlyData middleware docs; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-324","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds a new admin copy-to-clipboard capability, including a reusable helper, clipboard event handling, and UI integration replacing email mailto links."}
+{"blind_id":"PUR-325","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR primarily changes the LiteLLM dependency from a minimum version to a pinned version to prevent a Windows issue, updates the lockfile, and adjusts related generated test fixtures. The small source and test changes support dependency compatibility rather than introducing a product feature or fixing application logic directly."}
+{"blind_id":"PUR-326","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"PR title: Fix TypeScript linting error: add compare function to array sort; categorized by the change's primary purpose as maintenance."}
+{"blind_id":"PUR-327","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a product- and bundle-level refund-period selection capability, including a new dropdown UI, persisted maximum refund period, presenter/controller support, and updated tests."}
+{"blind_id":"PUR-328","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"PR title: chore: remove @calcom/lib barrel file; categorized by the change's primary purpose as refactor."}
+{"blind_id":"PUR-329","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: ✨(agent): Add SQL syntax validation for pgTAP tests; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-330","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Add __experimental_omceDomain flag for debugging and benchmarking; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-331","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Add Redb storage option to CLI; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-332","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: docs: update converter.md to reflect img2pdf size and margin options; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-333","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR resolves conflicting wording in a help-center article by removing merge-conflict markers and revising explanatory text; no product behavior or code logic changes are made."}
+{"blind_id":"PUR-334","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Implement QA Agent Integration in generateDDLNode; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-335","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: add AI prototype generator features page at /features/prototype; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-336","coder_id":"CODER_A","purpose":"test","evidence_notes":"PR title: 🧹 chore: Fix proxy middleware tests for offline environments; categorized by the change's primary purpose as test."}
+{"blind_id":"PUR-337","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: feat(schema): add enum support to tbls parser; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-338","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds a public ResourceCommandService capability for executing resource commands, supports replica execution, exposes it through the application, and adds sample commands. The test changes support this new behavior."}
+{"blind_id":"PUR-339","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR updates CI workflow conditions to skip E2E tests for asset-only preview deployments, optimizing test triggers without changing product behavior."}
+{"blind_id":"PUR-340","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"PR title: refactor: remove logAssistantMessage calls from PM Agent analyzeRequirementsNode; categorized by the change's primary purpose as refactor."}
+{"blind_id":"PUR-341","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: implement Scratch mode and set it as default; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-342","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR updates instructions for obtaining the daily CLI in a documentation file without changing product behavior."}
+{"blind_id":"PUR-343","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects existing review-page navigation links that redirected to the wrong domain, updating them to the Discover destination and aligning request-test expectations."}
+{"blind_id":"PUR-344","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"PR title: Use edge-triggered epoll for eventfd wakeups; categorized by the change's primary purpose as maintenance."}
+{"blind_id":"PUR-345","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(http2): prevent extra empty DATA frame on write()+end() pattern; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-346","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Fixes an assertion failure when a valid port value of 65535 reaches socket address DTO creation by using the correct uint16_t type and removing the overly restrictive assertion."}
+{"blind_id":"PUR-347","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Add function signature breaking change detector; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-348","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing defect where newly created organizations did not set the organization ID cookie, causing inconsistent organization selection and navigation. Related prop changes ensure the ID is always passed during project creation."}
+{"blind_id":"PUR-349","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: `@remotion/media`: Prevent MediaPlayer reinit on Sequence durationInFrames change; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-350","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR changes Vercel deployment configuration to skip preview builds for temporary GitHub merge queue branches, with no product code or test changes."}
+{"blind_id":"PUR-351","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"PR title: Refactor createKnowledgeSuggestionTask to reduce payload parameters; categorized by the change's primary purpose as refactor."}
+{"blind_id":"PUR-352","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a new limiter middleware option that disables rate-limit response headers, with implementation, documentation, and tests."}
+{"blind_id":"PUR-353","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Add .serena/ to .gitignore; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-354","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds supported local development capability for running the Helper app alongside Gumroad, including HTTPS proxying, certificate generation, Docker configuration, and setup documentation."}
+{"blind_id":"PUR-355","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds interactive prompting and re-prompting for missing parameter values during run mode, along with parameter processing support and tests."}
+{"blind_id":"PUR-356","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects error handling in existing UUID failure paths by preserving underlying errors with Go error wrapping, without adding new capability or changing normal behavior."}
+{"blind_id":"PUR-357","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects failures in organization and project creation caused by references to a nonexistent status column."}
+{"blind_id":"PUR-358","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Remove Tax Implications section from Affiliates HC article 333; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-359","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"PR title: Change .dotnet/aspire to .aspire in temporary working files; categorized by the change's primary purpose as maintenance."}
+{"blind_id":"PUR-360","coder_id":"CODER_A","purpose":"test","evidence_notes":"The PR only updates the ExperimentListView unit test to mock the experiment list query correctly and fix failing test setup; it does not change production behavior."}
+{"blind_id":"PUR-361","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing production failure caused by calling hasOwnProperty on prototype-less request objects, preserving normal behavior while preventing TypeError exceptions."}
+{"blind_id":"PUR-362","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR fixes an existing crash where step discovery fails because the published CLI cannot resolve its non-production TypeScript dependency. The implementation replaces the parser while preserving discovery behavior."}
+{"blind_id":"PUR-363","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR exclusively adds and links comprehensive Windows/WSL developer setup documentation without modifying application behavior."}
+{"blind_id":"PUR-364","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(destination-postgres): Fix index recreation on non-existent columns in raw tables mode; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-365","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR exclusively corrects typos in two documentation files, with no product or behavior changes."}
+{"blind_id":"PUR-366","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: Add /create-plan command to generate PLANS.md execution documents; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-367","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: FIR-2006: Fix maxUrls and timeLimit parameters in Deep Research API; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-368","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: `@remotion/webcodecs`: new `rotateAndResizeVideoFrame()` API; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-369","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a database seed script that provides supported test data and enables immediate UI verification in local and preview environments."}
+{"blind_id":"PUR-370","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"PR title: refactor: convert handleNotificationWhenNoSlots to service class with DI; categorized by the change's primary purpose as refactor."}
+{"blind_id":"PUR-371","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix potential SQL injection vulnerability in AudienceMember.filter type parameter; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-372","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR updates the connector CDK specifically to correct a crash during schema evolution when deleting columns referenced by the sort order."}
+{"blind_id":"PUR-373","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat(python-sdk): add parsePDF parameter support; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-374","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing defect where the highlight CSS class was applied to the wrong DOM element, preventing related columns from being visually highlighted."}
+{"blind_id":"PUR-375","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds optimistic-update behavior and React Query mutation integration for creating, updating, and deleting event types, changing the supported user-facing save workflow."}
+{"blind_id":"PUR-376","coder_id":"CODER_A","purpose":"test","evidence_notes":"PR title: Update GENERATE_UUID tests; categorized by the change's primary purpose as test."}
+{"blind_id":"PUR-377","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR exclusively adds and links documentation for community learning resources, with no product behavior or code changes."}
+{"blind_id":"PUR-378","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing CalDAV REPORT defect where responses omit VTODO components, causing clients to fail when updating tasks. The one-line production change fixes the incorrect data source, and the added tests verify the corrected behavior."}
+{"blind_id":"PUR-379","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR primarily adds a new index pre-crawl capability, including domain prioritization, crawl-budget allocation, queue submission, and propagation of pre-crawl state through indexing; harness shutdown fixes are secondary."}
+{"blind_id":"PUR-380","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds user-facing timeline capabilities: status indicators for agent log messages and grouping consecutive messages by agent. The diff introduces assistant log entries, grouping-related timeline changes, and corresponding UI styling and stories."}
+{"blind_id":"PUR-381","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: docs: update documentation URLs from docs.lingo.dev to lingo.dev/cli and lingo.dev/compiler; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-382","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects MIME type matching so subtype-prefix mismatches are rejected, with a focused regression test."}
+{"blind_id":"PUR-383","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: add email filter to user list command; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-384","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Remove unused TRIGGER environment variables; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-385","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Update docs on workspaces and catalogs; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-386","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"PR title: Consolidate AnalyzedRequirements type definitions; categorized by the change's primary purpose as refactor."}
+{"blind_id":"PUR-387","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Move windows control tab from editorPanel to layersPanel; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-388","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Add Sentry integration for error tracking; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-389","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: add membership creation date to Organization Member List table (CAL-5406); categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-390","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix: prevent PDF scrapes with parsePDF:false from being indexed; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-391","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"The PR primarily extracts generic Iceberg functionality from the S3 Data Lake connector into a reusable toolkit and renames/moves classes without introducing a user-facing capability."}
+{"blind_id":"PUR-392","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: add organization_id to github_pull_request_comments table; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-393","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"PR title: Refactor fasthttp iter calls to range loops; categorized by the change's primary purpose as refactor."}
+{"blind_id":"PUR-394","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects end-of-month slot fetching and date handling for week/column calendar views, including replacing URL-date usage with the selected store date and centralizing prefetch logic."}
+{"blind_id":"PUR-395","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing request failure when the server uses a static prefix by fixing the logged-model search endpoint path."}
+{"blind_id":"PUR-396","coder_id":"CODER_A","purpose":"test","evidence_notes":"PR title: Fix @scena/react-guides Snapshot Tests; categorized by the change's primary purpose as test."}
+{"blind_id":"PUR-397","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Add chat.tools.autoApprove setting information to agent accessibility help; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-398","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(kanban): make bucket query fixed per-view; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-399","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects existing incorrect behavior in package metadata viewing and property lookup, including versions normalization and bracket-index access."}
+{"blind_id":"PUR-400","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR primarily corrects existing failure and unsafe behavior in the adaptor, especially the panic in CopyContextToFiberContext, nil/invalid context handling, malformed address handling, and oversized request bodies. The added tests support these fixes rather than constituting the main deliverable."}
+{"blind_id":"PUR-401","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a new supported cell-action capability to copy non-empty table values to the clipboard in Explore tables and logs."}
+{"blind_id":"PUR-402","coder_id":"CODER_A","purpose":"mixed-purpose","evidence_notes":"PR title: Update list CONCAT docs & tests; categorized by the change's primary purpose as mixed-purpose."}
+{"blind_id":"PUR-403","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Rename Schema Updates tab to SQL tab; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-404","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix accessibility of TopCreatorBadge SVG in AuthorByline; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-405","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: feat: add lint scripts to schema-bench package; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-406","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: 🧹 chore: Fix AcceptsLanguages() RFC compliance; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-407","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing workflow defect that failed to find CLI E2E artifacts because the API response was limited to the first page."}
+{"blind_id":"PUR-408","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Link to the last chargebacked purchase within admin purchase states; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-409","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Add EmulatorResourceAnnotation to Azure emulator resources for consistent tooling support; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-410","coder_id":"CODER_A","purpose":"test","evidence_notes":"PR title: ci: disable flaky UUID performance tests; categorized by the change's primary purpose as test."}
+{"blind_id":"PUR-411","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing UI defect: an unnecessary left border appears when event type details are hidden. The diff conditionally applies the border class based on hideEventTypeDetails."}
+{"blind_id":"PUR-412","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix missing 'name' property in TableService Bicep generation; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-413","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: fix(root): resolve moderate lodash-es, dompurify, and @octokit/endpoint vulnerabilities; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-414","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Add Star History section; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-415","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: 🔥 feat: Add support for Express.js style req/res handlers; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-416","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds a user-facing search capability to the span attributes section while preserving existing attribute rendering and actions."}
+{"blind_id":"PUR-417","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"PR title: feat: optimize Prisma queries by replacing findFirst with findUnique where applicable; categorized by the change's primary purpose as maintenance."}
+{"blind_id":"PUR-418","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds supported behavior to persist the Explore toolbar's collapsed state in the URL and restore it during browser-history navigation."}
+{"blind_id":"PUR-419","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR removes deprecated Retell AI fields and associated update calls that are no longer valid, correcting existing integration behavior."}
+{"blind_id":"PUR-420","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR only adds documentation explaining SageMaker LLM configuration and usage; no product behavior or tests are changed."}
+{"blind_id":"PUR-421","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects rendered schema positions by accounting for embedded PDF bounding-box offsets, fixing incorrect output placement. The teardown removal and deep clone support this implementation but are secondary."}
+{"blind_id":"PUR-422","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix thread safety issue in FindAppHostProjectFilesAsync by switching to ConcurrentBag; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-423","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Add markdown attribute to Task class; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-424","coder_id":"CODER_A","purpose":"test","evidence_notes":"PR title: feat: benchmark task search; categorized by the change's primary purpose as test."}
+{"blind_id":"PUR-425","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects existing incorrect behavior when using MVT in static schemas by avoiding placeholder replacement for non-read-only schemas, matching the Designer logic."}
+{"blind_id":"PUR-426","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: feat: add PR template with issue linking section; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-427","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects Firefox paste handling so pasted text triggers the paste pathway instead of the generic type command."}
+{"blind_id":"PUR-428","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects existing caching behavior, including cache keying by avatar size and storing/retrieving concrete values compatible with the cache mechanism."}
+{"blind_id":"PUR-429","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(schema-bench): use EPSILON for table all-correct floating point comparison; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-430","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: ♻️ Extract GitHub API utilities and integrate token refresh; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-431","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: [DOC-FIX] Fix typos in mlflow.evaluate documentation; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-432","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR adds a 358-line documentation guide and updates documentation navigation only; it does not change product behavior, tests, configuration, or dependencies."}
+{"blind_id":"PUR-433","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Don't run expensive build/test workflows for markdown-only changes; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-434","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(root): resolve kysely, h3, and next 15.x dependency security vulnerabilities; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-435","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR only adds the v1.11.0rc2 release changelog entry in three localized documentation files; the listed bug fixes and dependency changes are release notes, not changes made by this PR."}
+{"blind_id":"PUR-436","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR extends processing deadlines for tasks that are regularly hitting their existing deadlines, correcting premature task failures or incomplete execution."}
+{"blind_id":"PUR-437","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: chore: comment out knip from renovate dev-tools group; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-438","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Revert retry functionality from test_slow job; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-439","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Replace YOUR_CUSTOMERS_LICENSE_KEY with sample license key in correct format; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-440","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Remove dependabot.yml configuration file; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-441","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"The PR enables a stricter lint rule and removes duplicate CSS declarations to resolve lint violations; its main goal is repository code-quality upkeep without adding capability or fixing an intended runtime defect."}
+{"blind_id":"PUR-442","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: `@remotion/bundler`: Revert rendering `window.remotion_logLevel` in bundle mode, use fallback instead; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-443","coder_id":"CODER_A","purpose":"test","evidence_notes":"The PR only updates a test fixture value in a Stripe charge processor spec to remove its dependency on the unavailable encryption key; no production behavior changes."}
+{"blind_id":"PUR-444","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: `@remotion/studio`: Lock cursor during InputDragger and Splitter drag; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-445","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix 404 error when navigating to branch detail pages with slashes in branch names; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-446","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: 🐛 bug: harden proxy nil client handling in Do/Forward paths; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-447","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects a typo in the user-facing error message for an existing subscription entity error."}
+{"blind_id":"PUR-448","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix down arrow navigation in last notebook cell to move cursor to end of line; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-449","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix: block localhost and loopback addresses in SSRF protection; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-450","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects GIF playback behavior when a frame's delay is zero by defaulting it to 100ms, matching FFmpeg behavior."}
+{"blind_id":"PUR-451","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR exports the mongoose dependency from the DAL package, adding a new developer-facing capability without fixing an existing defect."}
+{"blind_id":"PUR-452","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Docs: Simplify pricing calculator; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-453","coder_id":"CODER_A","purpose":"test","evidence_notes":"PR title: Skip apply test when env vars missing; categorized by the change's primary purpose as test."}
+{"blind_id":"PUR-454","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: docs(abctl): Complete abctl command reference documentation; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-455","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: Add PLW1508 to ruff lint select list; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-456","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"The PR optimizes data loading by preloading associations to prevent N+1 queries, without changing the supported behavior or fixing an incorrect result."}
+{"blind_id":"PUR-457","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR updates README files to clarify software, image, and trademark licensing, with no product behavior changes."}
+{"blind_id":"PUR-458","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"The PR removes unsafe raw-pointer ownership bridges and propagates SharedPtr through the fetch and HTTP layers while preserving existing behavior and explicitly describing the ownership reorganization."}
+{"blind_id":"PUR-459","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR replaces the existing LangChain chat implementation with Mastra and the Vercel AI SDK, adding a new agent-based capability and tracing integration. The changed chat behavior and new agent are the primary deliverables; dependency and configuration changes support that migration."}
+{"blind_id":"PUR-460","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR primarily changes project and build configuration to enable native AOT publishing where supported and adjust CI/build packaging behavior across target platforms."}
+{"blind_id":"PUR-461","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"The PR primarily changes Storybook configuration to narrow story discovery paths and exclude node_modules; formatting and title-prefix updates are secondary."}
+{"blind_id":"PUR-462","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: chore: upgrade TypeScript to 5.8; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-463","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR fixes an existing Docker-based Spark model deployment failure caused by using an incompatible Java version during image build."}
+{"blind_id":"PUR-464","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds three new SQL date/time functions with parsing, AST, evaluation, planning, serialization, and integration tests."}
+{"blind_id":"PUR-465","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"The PR primarily tunes an existing harness timeout to reduce startup flakiness; accompanying changes are formatting-only refactors with no intended behavior change."}
+{"blind_id":"PUR-466","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Add target='_blank' to Amazon instructions link in Kindle help article; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-467","coder_id":"CODER_A","purpose":"test","evidence_notes":"The PR's main deliverable is replacing and consolidating end-to-end test infrastructure around Playwright, including adding two missing tests; product behavior is not the primary goal."}
+{"blind_id":"PUR-468","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing defect where the Player measurer can produce NaN by guarding against a zero CSS parent width before division."}
+{"blind_id":"PUR-469","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix: handle strict-encrypt connectors in metadata validation; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-470","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds supported preview-app generation and deployment behavior for devin/* branches."}
+{"blind_id":"PUR-471","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"Restores the plain-text configuration description needed by the policy parser while preserving the existing markdown description, correcting an omission that blocked related tooling."}
+{"blind_id":"PUR-472","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"PR title: Add payout timing examples to help article 281; categorized by the change's primary purpose as documentation."}
+{"blind_id":"PUR-473","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing yo-yo autoscrolling defect caused by the CTA's sticky positioning and Safari scroll workaround. The diff removes the faulty offsetting scroll logic and uses fixed positioning to prevent page scrolling when the CTA appears or disappears."}
+{"blind_id":"PUR-474","coder_id":"CODER_A","purpose":"documentation","evidence_notes":"The PR documents the existing Stale() behavior without changing its implementation or adding new functionality."}
+{"blind_id":"PUR-475","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds a complete in-app feedback capability, including a submission modal, attachment handling, backend storage and rate limiting, email notifications, and UI entry points."}
+{"blind_id":"PUR-476","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix: agent cross interference loop; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-477","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds supported behavior that disables local authentication by default for Azure Event Hubs and Web PubSub resources, including provisioning changes and updated snapshots."}
+{"blind_id":"PUR-478","coder_id":"CODER_A","purpose":"refactor","evidence_notes":"The PR migrates existing PublicController pages from ERB/ReactOnRails to Inertia React without adding intended user-facing behavior, while removing obsolete dead code and updating routing/rendering tests."}
+{"blind_id":"PUR-479","coder_id":"CODER_A","purpose":"feature","evidence_notes":"Adds supported barcode rendering in web worker environments using OffscreenCanvas, including new type support."}
+{"blind_id":"PUR-480","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat(source-clickhouse): fold strict-encrypt variant into main connector; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-481","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR fixes existing tool-input parsing failures by supporting valid JSON, Python literals, JSON5 syntax, missing input, and repaired JSON, with extensive regression tests."}
+{"blind_id":"PUR-482","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: `@remotion/elevenlabs`: Add package for converting ElevenLabs output to captions; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-483","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR fixes a failing cross-version test assertion caused by LlamaIndex changing its tool-output format; no product behavior is changed."}
+{"blind_id":"PUR-484","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(http): harden request header buffer bounds in buildRequest; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-485","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects broken preview cleanup behavior by removing a nonexistent verification command and replacing ineffective stale-environment cleanup with logic that finds and archives environments for closed, unmerged PRs."}
+{"blind_id":"PUR-486","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: Implement integration tests for git functionalities; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-487","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR removes an unintended visible border causing incorrect appearance on the iOS availability list view."}
+{"blind_id":"PUR-488","coder_id":"CODER_A","purpose":"mixed-purpose","evidence_notes":"The PR has two distinct, explicitly central deliverables: adding conversation-history retrieval and initialization from checkpointer storage, and fixing streamed agent-name preservation."}
+{"blind_id":"PUR-489","coder_id":"CODER_A","purpose":"feature","evidence_notes":"The PR adds supported Azure resource behavior and public APIs, including explicit Log Analytics workspace association, automatic workspace creation, and a public container app environment output reference. It also removes obsolete automatic parameter injection and updates tests to validate the new behavior."}
+{"blind_id":"PUR-490","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix(api-service, worker): guard against null/undefined runtime crashes; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-491","coder_id":"CODER_A","purpose":"configuration-dependency","evidence_notes":"PR title: chore: enable automerge for lockfile maintenance in renovate; categorized by the change's primary purpose as configuration-dependency."}
+{"blind_id":"PUR-492","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: harden chunked encoding size parsing to use full 64-bit width; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-493","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: fix: preserve full LLM config across HITL resume for non-OpenAI providers; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-494","coder_id":"CODER_A","purpose":"test","evidence_notes":"The PR changes test support helpers to eliminate real Dropbox and S3 calls by generating mock metadata and stubbing external services; no primary product behavior is changed."}
+{"blind_id":"PUR-495","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"The PR corrects an existing timezone formatting defect by loading the Day.js UTC plugin before the timezone plugin, fixing incorrectly labeled UTC times."}
+{"blind_id":"PUR-496","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: feat: add organization_id to knowledge_suggestions table; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-497","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"The PR is a formatting/style cleanup with no substantive intended behavior change; the only apparent code-expression change is equivalent to the original range check."}
+{"blind_id":"PUR-498","coder_id":"CODER_A","purpose":"feature","evidence_notes":"PR title: `@remotion/lambda`: Add `compatibleOnly` support to `getSites()` and `sites ls`; categorized by the change's primary purpose as feature."}
+{"blind_id":"PUR-499","coder_id":"CODER_A","purpose":"bug-fix","evidence_notes":"PR title: Fix autoformat workflow to commit untracked files created during formatting; categorized by the change's primary purpose as bug-fix."}
+{"blind_id":"PUR-500","coder_id":"CODER_A","purpose":"maintenance","evidence_notes":"PR title: 🧹 chore: Use sync.Pool for form and multipart binding; categorized by the change's primary purpose as maintenance."}
